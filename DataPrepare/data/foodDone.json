@@ -1,0 +1,906 @@
+[
+	{
+		"name": "Kartofler nye danske",
+		"price": 5000,
+		"stock": 25,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/kartofler-nye-danske.jpg?i=woVQf0XZ/5001572&w=623&h=623&mode=pad",
+		"labels": ["Kartoffel", "Danmark", "Solist"]
+	},
+	{
+		"name": "Kartofler nye danske vaskede",
+		"price": 3500,
+		"stock": 20,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/kartofler-nye-danske-vaskede.jpg?i=M6vO1yjZ/5006745&w=623&h=623&mode=pad",
+		"labels": ["Kartoffel", "Danmark", "Lille", "Vasket", "Solist"]
+	},
+	{
+		"name": "Bananer små øko.",
+		"price": 1000,
+		"stock": 53,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/bananer-smaa-oeko.jpg?i=Qj-x-2an/5011242&w=623&h=623&mode=pad",
+		"labels": ["Banan", "Øko", "Discount", "Dominikanske Republik", "Cavendish"]
+	},
+	{
+		"name": "Druer røde stenfri",
+		"price": 2000,
+		"stock": 21,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/druer-roede-stenfri.jpg?i=7zvgWKmk/2301134&w=623&h=623&mode=pad",
+		"labels": ["Crimson", "Vindrue", "Sydafrika", "Crimson"]
+	},
+	{
+		"name": "Blåbær øko.",
+		"price": 2000,
+		"stock": 21,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/blaabaer-oeko.jpg?i=rVczYJ5i/5043433&w=623&h=623&mode=pad",
+		"labels": ["Spanien", "Øko", "Discount", "Blåbær"]
+	},
+	{
+		"name": "Æble Royal Gala",
+		"price": 250,
+		"stock": 43,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/aeble-royal-gala.jpg?i=Qj-x-2an/2301197&w=623&h=623&mode=pad",
+		"labels": ["Æble", "Italien", "Frugt", "Royal Gala", "Discount", "Rød"]
+	},
+	{
+		"name": "Hvidløg øko.",
+		"price": 550,
+		"stock": 39,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/hvidloeg-oeko.jpg?i=LO6I3k0z/100160&w=623&h=623&mode=pad",
+		"labels": ["Hvidløg", "Kina", "Discount", "Øko"]
+	},
+	{
+		"name": "Agurk øko.",
+		"price": 800,
+		"stock": 39,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/agurk-oeko.jpg?i=h0XZ3ZP4/106593&w=623&h=623&mode=pad",
+		"labels": ["Agurk", "Spanien", "Discount", "Øko", "Grøn"]
+	},
+	{
+		"name": "Basilikum stor",
+		"price": 3000,
+		"stock": 32,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/basilikum-stor.jpg?i=Qj-x-2an/5001714&w=623&h=623&mode=pad",
+		"labels": ["Basilikum", "Krydderurt", "Danmark", "Grøn"]
+	},
+	{
+		"name": "Mandler",
+		"price": 3500,
+		"stock": 40,
+		"brand": "Nordthy",
+		"link": "https://live.nemligstatic.com/scommerce/images/mandler.jpg?i=A2YIcDhs/5043285&w=623&h=623&mode=pad",
+		"labels": ["Nødder"]
+	},
+	{
+		"name": "Hyldeblomstdrik øko.",
+		"price": 3000,
+		"stock": 24,
+		"brand": "Bornholms Mosteri",
+		"link": "https://live.nemligstatic.com/scommerce/images/hyldeblomstdrik-oeko.jpg?i=aCAX6k5n/5037967&w=623&h=623&mode=pad",
+		"labels": ["Danmark", "Øko", "Most"]
+	},
+	{
+		"name": "Frugtavler most øko.",
+		"price": 3000,
+		"stock": 64,
+		"brand": "Æblemosteriet",
+		"link": "https://live.nemligstatic.com/scommerce/images/frugtavler-most-oeko.jpg?i=Qj-x-2an/5021786&w=623&h=623&mode=pad",
+		"labels": ["Danmark", "Øko", "Æblemost"]
+	},
+	{
+		"name": "Laksefilet m. skind",
+		"price": 14695,
+		"stock": 61,
+		"brand": "Amanda frisk fisk",
+		"link": "https://live.nemligstatic.com/scommerce/images/laksefilet-m-skind.jpg?i=tKObVfsm/5026354&w=623&h=623&mode=pad",
+		"labels": ["Laks", "Norge", "Filet", "Nøglehulsmærket", "Renset"]
+	},
+	{
+		"name": "Ribeye",
+		"price": 16995,
+		"stock": 46,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/ribeye.jpg?i=Qj-x-2an/5024805&w=623&h=623&mode=pad",
+		"labels": ["Danmark", "Okse"]
+	},
+	{
+		"name": "Hakket svine og kalvekød 8-12%",
+		"price": 6495,
+		"stock": 55,
+		"brand": "Danish Crown",
+		"link": "https://live.nemligstatic.com/scommerce/images/hakket-svine-og-kalvekoed-8-12.jpg?i=Ko24nx5y/5026539&w=623&h=623&mode=pad",
+		"labels": ["Kalv", "Svin", "Danmark", "Hakket"]
+	},
+	{
+		"name": "Hel kylling",
+		"price": 5995,
+		"stock": 28,
+		"brand": "Danpo",
+		"link": "https://live.nemligstatic.com/scommerce/images/hel-kylling.jpg?i=5psVUT54/5010843&w=623&h=623&mode=pad",
+		"labels": ["Halal", "Danmark", "Kylling"]
+	},
+	{
+		"name": "Marineret lammekrone",
+		"price": 12995,
+		"stock": 55,
+		"brand": "Mollers",
+		"link": "https://live.nemligstatic.com/scommerce/images/marineret-lammekrone.jpg?i=XVco-yz5/5046707&w=623&h=623&mode=pad",
+		"labels": ["Lam"]
+	},
+	{
+		"name": "Tykstegsmedaljoner m. bacon",
+		"price": 2500,
+		"stock": 60,
+		"brand": "No brand",
+		"link": "https://live.nemligstatic.com/scommerce/images/tykstegsmedaljoner-m-bacon.jpg?i=Qj-x-2an/5025807&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Tykstegsmedaljon", "Okse"]
+	},
+	{
+		"name": "Oksekød stroganoff",
+		"price": 5000,
+		"stock": 29,
+		"brand": "Irish Nature",
+		"link": "https://live.nemligstatic.com/scommerce/images/oksekoed-stroganoff.jpg?i=dJlem7Ve/5029215&w=623&h=623&mode=pad",
+		"labels": ["Irland", "Okse"]
+	},
+	{
+		"name": "Burgerbøffer (plantebaseret)",
+		"price": 5495,
+		"stock": 32,
+		"brand": "Beyond Meat",
+		"link": "https://live.nemligstatic.com/scommerce/images/burgerboeffer-plantebaseret.jpg?i=hZr9BPcJ/5041649&w=623&h=623&mode=pad",
+		"labels": ["Frost", "Vegansk", "Vegetarisk", "Køderstatning", "Plantebaseret"]
+	},
+	{
+		"name": "Falafelfars øko.",
+		"price": 2625,
+		"stock": 48,
+		"brand": "Naturli",
+		"link": "https://live.nemligstatic.com/scommerce/images/falafelfars-oeko.jpg?i=hVhhV8hW/5037792&w=623&h=623&mode=pad",
+		"labels": ["Køderstatning", "Discount", "Vegansk", "Øko", "Vegetar"]
+	},
+	{
+		"name": "Veggie bøffer",
+		"price": 2495,
+		"stock": 20,
+		"brand": "Earth Control",
+		"link": "https://live.nemligstatic.com/scommerce/images/veggie-boeffer.jpg?i=2STAprT8/5039193&w=623&h=623&mode=pad",
+		"labels": ["Vegansk", "Vegetarisk"]
+	},
+	{
+		"name": "Falafel",
+		"price": 3495,
+		"stock": 58,
+		"brand": "Halsans Kok",
+		"link": "https://live.nemligstatic.com/scommerce/images/falafel.jpg?i=pPe4fCF6/5043808&w=623&h=623&mode=pad",
+		"labels": ["Frost", "Vegansk", "Vegetarisk", "Køderstatning"]
+	},
+	{
+		"name": "Grillede filéer",
+		"price": 3495,
+		"stock": 36,
+		"brand": "Holsans Kok",
+		"link": "https://live.nemligstatic.com/scommerce/images/grillede-fileer.jpg?i=pPe4fCF6/5043812&w=623&h=623&mode=pad",
+		"labels": ["Frost", "Vegetarisk", "Køderstatning"]
+	},
+	{
+		"name": "Burgerbøffer (plantebaseret)",
+		"price": 2995,
+		"stock": 65,
+		"brand": "Halsans Kok",
+		"link": "https://live.nemligstatic.com/scommerce/images/burgerboeffer-plantebaseret.jpg?i=BXteK16w/5038929&w=623&h=623&mode=pad",
+		"labels": ["Køderstatning", "Vegetarbøf", "Frost", "Vegansk", "Vegetarisk"]
+	},
+	{
+		"name": "Plantefars",
+		"price": 2995,
+		"stock": 41,
+		"brand": "Naturli",
+		"link": "https://live.nemligstatic.com/scommerce/images/plantefars.jpg?i=qZyyzJyH/5044392&w=623&h=623&mode=pad",
+		"labels": ["Frost", "Glutenfri", "Nøglehulsmærket", "Vegansk"]
+	},
+	{
+		"name": "Pizza mexicana",
+		"price": 2995,
+		"stock": 22,
+		"brand": "Naturli",
+		"link": "https://live.nemligstatic.com/scommerce/images/pizza-mexicana.jpg?i=ZiHMUQqY/5044399&w=623&h=623&mode=pad",
+		"labels": ["Frost", "Vegansk", "Køderstatning"]
+	},
+	{
+		"name": "Plantebaserede pølser",
+		"price": 3000,
+		"stock": 34,
+		"brand": "Naturli",
+		"link": "https://live.nemligstatic.com/scommerce/images/plantebaserede-poelser.jpg?i=kmmm7Sz0/5046926&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Vegansk", "Køderstatning", "Pølse"]
+	},
+	{
+		"name": "Grøntsagsdeller",
+		"price": 7500,
+		"stock": 65,
+		"brand": "Homemate",
+		"link": "https://live.nemligstatic.com/scommerce/images/groentsagsdeller.jpg?i=Ce4Nl-7P/5045445&w=623&h=623&mode=pad",
+		"labels": ["Vegansk", "Vegetarisk"]
+	},
+	{
+		"name": "Chiabrød",
+		"price": 4000,
+		"stock": 37,
+		"brand": "Lagkagehuset",
+		"link": "https://live.nemligstatic.com/scommerce/images/chiabroed.jpg?i=DaqXROnf/5010900&w=623&h=623&mode=pad",
+		"labels": ["Rugbrød"]
+	},
+	{
+		"name": "Rugbrød øko.",
+		"price": 4500,
+		"stock": 52,
+		"brand": "Lagkagehuset",
+		"link": "https://live.nemligstatic.com/scommerce/images/rugbroed-oeko.jpg?i=DaqXROnf/5006200&w=623&h=623&mode=pad",
+		"labels": ["Øko", "Rugbrød"]
+	},
+	{
+		"name": "Multikernesandwich",
+		"price": 1995,
+		"stock": 27,
+		"brand": "Schulstad",
+		"link": "https://live.nemligstatic.com/scommerce/images/multikernesandwich.jpg?i=nhQWS1Xf/5035289&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Fuldkornsmærket", "Nøglehulsmærket", "Brød"]
+	},
+	{
+		"name": "Fuldkornspitabrød",
+		"price": 1695,
+		"stock": 64,
+		"brand": "Hatting",
+		"link": "https://live.nemligstatic.com/scommerce/images/fuldkornspitabroed.jpg?i=Qj-x-2an/5501484&w=623&h=623&mode=pad",
+		"labels": ["Frost", "Fuldkornsmærket", "Nøglehulsmærket", "Brød"]
+	},
+	{
+		"name": "Tortilla (fuldkorn) øko.",
+		"price": 2495,
+		"stock": 65,
+		"brand": "Santa Maria",
+		"link": "https://live.nemligstatic.com/scommerce/images/tortilla-fuldkorn-oeko.jpg?i=GvTr0m8a/5042026&w=623&h=623&mode=pad",
+		"labels": ["Øko", "Tex Mex", "Madbrød"]
+	},
+	{
+		"name": "Snøfler",
+		"price": 1790,
+		"stock": 24,
+		"brand": "Snøfler",
+		"link": "https://live.nemligstatic.com/scommerce/images/snoefler.jpg?i=jxzAfs7R/105228&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Kage"]
+	},
+	{
+		"name": "Kammerjunkere øko.",
+		"price": 2695,
+		"stock": 39,
+		"brand": "Karen Volf",
+		"link": "https://live.nemligstatic.com/scommerce/images/kammerjunkere-oeko.jpg?i=LXBNNkLo/5014309&w=623&h=623&mode=pad",
+		"labels": ["Øko", "Kage"]
+	},
+	{
+		"name": "Hollandske kryddere",
+		"price": 925,
+		"stock": 30,
+		"brand": "Bachmann",
+		"link": "https://live.nemligstatic.com/scommerce/images/hollandske-kryddere.jpg?i=tUYOUQ87/5030456&w=623&h=623&mode=pad",
+		"labels": ["Skorper", "Snack"]
+	},
+	{
+		"name": "Snackchips m. krydderi",
+		"price": 1695,
+		"stock": 23,
+		"brand": "KiMs",
+		"link": "https://live.nemligstatic.com/scommerce/images/snackchips-m-krydderi.jpg?i=uWMf8FIO/5004340&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Chips"]
+	},
+	{
+		"name": "Chips m. havsalt",
+		"price": 1695,
+		"stock": 69,
+		"brand": "KiMs",
+		"link": "https://live.nemligstatic.com/scommerce/images/chips-m-havsalt.jpg?i=ku8iX8LT/5004335&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Salt", "Chips"]
+	},
+	{
+		"name": "Toffifee",
+		"price": 1895,
+		"stock": 35,
+		"brand": "Toffifee",
+		"link": "https://live.nemligstatic.com/scommerce/images/toffifee.jpg?i=Qj-x-2an/303020&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Chokolade", "Slik"]
+	},
+	{
+		"name": "Billed bladet",
+		"price": 3695,
+		"stock": 41,
+		"brand": "Billed bladet",
+		"link": "https://live.nemligstatic.com/scommerce/images/billed-bladet.jpg?i=nzxw3hf4/5002353&w=623&h=623&mode=pad",
+		"labels": ["Ugeblad"]
+	},
+	{
+		"name": "Se & Hør",
+		"price": 3695,
+		"stock": 32,
+		"brand": "Se & Hør",
+		"link": "https://live.nemligstatic.com/scommerce/images/se-hoer.jpg?i=p68G2yz3/5002359&w=623&h=623&mode=pad",
+		"labels": ["Ugeblad"]
+	},
+	{
+		"name": "Søndag",
+		"price": 3695,
+		"stock": 57,
+		"brand": "Søndag",
+		"link": "https://live.nemligstatic.com/scommerce/images/soendag.jpg?i=k3ZVlqL1/5002360&w=623&h=623&mode=pad",
+		"labels": ["Ugeblad"]
+	},
+	{
+		"name": "Her & nu",
+		"price": 2495,
+		"stock": 45,
+		"brand": "Her & nu",
+		"link": "https://live.nemligstatic.com/scommerce/images/her-nu.jpg?i=p68G2yz3/5002356&w=623&h=623&mode=pad",
+		"labels": ["Ugeblad"]
+	},
+	{
+		"name": "Familie Journalen",
+		"price": 3695,
+		"stock": 67,
+		"brand": "Familie Journalen",
+		"link": "https://live.nemligstatic.com/scommerce/images/familie-journalen.jpg?i=A1Fbbo3q/5002354&w=623&h=623&mode=pad",
+		"labels": ["Ugeblad"]
+	},
+	{
+		"name": "Ude og Hjemme",
+		"price": 3695,
+		"stock": 26,
+		"brand": "Ude og Hjemme",
+		"link": "https://live.nemligstatic.com/scommerce/images/ude-og-hjemme.jpg?i=p68G2yz3/5002361&w=623&h=623&mode=pad",
+		"labels": ["Ugeblad"]
+	},
+	{
+		"name": "Pingvin blanding",
+		"price": 1083,
+		"stock": 46,
+		"brand": "Toms",
+		"link": "https://live.nemligstatic.com/scommerce/images/pingvin-blanding.jpg?i=BHmTAU0D/102317&w=623&h=623&mode=pad",
+		"labels": ["Pingvin", "Discount", "Lakridskonfekt", "Slik", "Vingummi"]
+	},
+	{
+		"name": "Click mix",
+		"price": 2095,
+		"stock": 22,
+		"brand": "Haribo",
+		"link": "https://live.nemligstatic.com/scommerce/images/click-mix.jpg?i=kSLlK0nu/5012574&w=623&h=623&mode=pad",
+		"labels": ["Drage", "Konfekt", "Lakrids", "Skum", "Slik", "Vingummi"]
+	},
+	{
+		"name": "Ærter (fine)",
+		"price": 950,
+		"stock": 39,
+		"brand": "First Price",
+		"link": "https://live.nemligstatic.com/scommerce/images/aerter-fine.jpg?i=Qj-x-2an/801007&w=623&h=623&mode=pad",
+		"labels": ["Frost", "Nøglehulsmærket", "Grøntsager"]
+	},
+	{
+		"name": "Pommes frites (bølge)",
+		"price": 1195,
+		"stock": 35,
+		"brand": "First Price",
+		"link": "https://live.nemligstatic.com/scommerce/images/pommes-frites-boelge.jpg?i=Qj-x-2an/803007&w=623&h=623&mode=pad",
+		"labels": ["Frost", "Kartofler", "Pommes frites", "Tilbehør"]
+	},
+	{
+		"name": "Ispinde classic",
+		"price": 2995,
+		"stock": 42,
+		"brand": "nemlig basic",
+		"link": "https://live.nemligstatic.com/scommerce/images/ispinde-classic.jpg?i=UdTW-dLK/5025625&w=623&h=623&mode=pad",
+		"labels": ["Dessert", "Frost", "Is", "Ispind"]
+	},
+	{
+		"name": "Ispinde m. mandel",
+		"price": 2995,
+		"stock": 43,
+		"brand": "nemlig basic",
+		"link": "https://live.nemligstatic.com/scommerce/images/ispinde-m-mandel.jpg?i=UdTW-dLK/5025624&w=623&h=623&mode=pad",
+		"labels": ["Dessert", "Frost", "Is", "Ispind"]
+	},
+	{
+		"name": "Tebirkes m. remonce",
+		"price": 1495,
+		"stock": 57,
+		"brand": "Mette Munk",
+		"link": "https://live.nemligstatic.com/scommerce/images/tebirkes-m-remonce.jpg?i=Qj-x-2an/5003487&w=623&h=623&mode=pad",
+		"labels": ["Frost", "Brød", "Kage"]
+	},
+	{
+		"name": "Kyllingenuggets",
+		"price": 5975,
+		"stock": 23,
+		"brand": "Daily Chef",
+		"link": "https://live.nemligstatic.com/scommerce/images/kyllingenuggets.jpg?i=ifHx3Zi0/5039408&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Frost", "Fjerkræ", "Paneret"]
+	},
+	{
+		"name": "Fiskefilet (panerede)",
+		"price": 3995,
+		"stock": 45,
+		"brand": "Royal Greenland",
+		"link": "https://live.nemligstatic.com/scommerce/images/fiskefilet-panerede.jpg?i=mvrU3Qc3/5018634&w=623&h=623&mode=pad",
+		"labels": ["Fisk", "Frost"]
+	},
+	{
+		"name": "Rejer",
+		"price": 1872,
+		"stock": 27,
+		"brand": "Ice Cap",
+		"link": "https://live.nemligstatic.com/scommerce/images/rejer.jpg?i=KeCS6qX6/923129&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Frost", "MSC-mærket", "Nøglehulsmærket", "Fisk"]
+	},
+	{
+		"name": "Fiskepinde",
+		"price": 2195,
+		"stock": 64,
+		"brand": "Nordic Seafood",
+		"link": "https://live.nemligstatic.com/scommerce/images/fiskepinde.jpg?i=TmlIsfDS/5040556&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Frost", "MSC-mærket", "Fisk"]
+	},
+	{
+		"name": "Vaniljeis øko.",
+		"price": 5195,
+		"stock": 57,
+		"brand": "Hansens Flødeis",
+		"link": "https://live.nemligstatic.com/scommerce/images/vaniljeis-oeko.jpg?i=c-fdCRyo/5027277&w=623&h=623&mode=pad",
+		"labels": ["Frost", "Øko", "Is"]
+	},
+	{
+		"name": "Jordbær",
+		"price": 1438,
+		"stock": 63,
+		"brand": "First Price",
+		"link": "https://live.nemligstatic.com/scommerce/images/jordbaer.jpg?i=Qj-x-2an/5012116&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Frost", "Frugt"]
+	},
+	{
+		"name": "Vaniljesukker",
+		"price": 1209,
+		"stock": 30,
+		"brand": "Dr. Oetker",
+		"link": "https://live.nemligstatic.com/scommerce/images/vaniljesukker.jpg?i=zAmxQliE/5019909&w=623&h=623&mode=pad",
+		"labels": ["Vanilje"]
+	},
+	{
+		"name": "Fuldkornshvedemel",
+		"price": 1250,
+		"stock": 66,
+		"brand": "Valsemøllen",
+		"link": "https://live.nemligstatic.com/scommerce/images/fuldkornshvedemel.jpg?i=mvIPOsZt/5021940&w=623&h=623&mode=pad",
+		"labels": ["Danmark", "Fuldkornsmærket", "Nøglehulsmærket", "Mel"]
+	},
+	{
+		"name": "Havregryn (grovvalsede) øko.",
+		"price": 1295,
+		"stock": 57,
+		"brand": "Funkisfood",
+		"link": "https://live.nemligstatic.com/scommerce/images/havregryn-grovvalsede-oeko.jpg?i=zL7LWMog/5041370&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Nøglehulsmærket", "Øko", "Gryn", "Morgenmad"]
+	},
+	{
+		"name": "Havregryn (finvalsede) øko.",
+		"price": 1050,
+		"stock": 29,
+		"brand": "Funkisfood",
+		"link": "https://live.nemligstatic.com/scommerce/images/havregryn-finvalsede-oeko.jpg?i=zL7LWMog/5041369&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Nøglehulsmærket", "Øko", "Gryn", "Morgenmad"]
+	},
+	{
+		"name": "Cornflakes",
+		"price": 2495,
+		"stock": 63,
+		"brand": "Kelloggs",
+		"link": "https://live.nemligstatic.com/scommerce/images/cornflakes.jpg?i=PfZkJOVz/901004&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Cornflakes", "Morgenmad"]
+	},
+	{
+		"name": "Havrefras",
+		"price": 2495,
+		"stock": 56,
+		"brand": "Quaker",
+		"link": "https://live.nemligstatic.com/scommerce/images/havrefras.jpg?i=yeO19Tx-/901014&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Fuldkornsmærket", "Nøglehulsmærket", "Morgenmad"]
+	},
+	{
+		"name": "Grøn pesto",
+		"price": 1995,
+		"stock": 33,
+		"brand": "SpiZe",
+		"link": "https://live.nemligstatic.com/scommerce/images/groen-pesto.jpg?i=Qj-x-2an/5020910&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Basilikum", "Pesto"]
+	},
+	{
+		"name": "Fajita krydderimix (medium)",
+		"price": 1395,
+		"stock": 32,
+		"brand": "Santa Maria",
+		"link": "https://live.nemligstatic.com/scommerce/images/fajita-krydderimix-medium.jpg?i=Qj-x-2an/5021636&w=623&h=623&mode=pad",
+		"labels": ["Tex Mex", "Kylling", "Kød", "Krydderi"]
+	},
+	{
+		"name": "Timian øko.",
+		"price": 1895,
+		"stock": 60,
+		"brand": "Urtekram",
+		"link": "https://live.nemligstatic.com/scommerce/images/timian-oeko.jpg?i=Qj-x-2an/5015447&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Øko", "Krydderi"]
+	},
+	{
+		"name": "Sorte oliven u. sten",
+		"price": 438,
+		"stock": 51,
+		"brand": "First Price",
+		"link": "https://live.nemligstatic.com/scommerce/images/sorte-oliven-u-sten.jpg?i=Qj-x-2an/102213&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Oliven"]
+	},
+	{
+		"name": "Pålægschokolade (mørk)",
+		"price": 3095,
+		"stock": 68,
+		"brand": "Galle & Jessen",
+		"link": "https://live.nemligstatic.com/scommerce/images/paalaegschokolade-moerk.jpg?i=Qj-x-2an/303031&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Pålægschokolade"]
+	},
+	{
+		"name": "Pålægschokolade (lys)",
+		"price": 3095,
+		"stock": 41,
+		"brand": "Galle & Jessen",
+		"link": "https://live.nemligstatic.com/scommerce/images/paalaegschokolade-lys.jpg?i=Qj-x-2an/303032&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Pålægschokolade"]
+	},
+	{
+		"name": "Pasta carbonara",
+		"price": 1800,
+		"stock": 61,
+		"brand": "Knorr",
+		"link": "https://live.nemligstatic.com/scommerce/images/pasta-carbonara.jpg?i=Qj-x-2an/5018809&w=623&h=623&mode=pad",
+		"labels": ["Pasta"]
+	},
+	{
+		"name": "Lasagnette mix",
+		"price": 1995,
+		"stock": 56,
+		"brand": "Knorr",
+		"link": "https://live.nemligstatic.com/scommerce/images/lasagnette-mix.jpg?i=xZPPWAeT/5501081&w=623&h=623&mode=pad",
+		"labels": ["Pasta", "Discount"]
+	},
+	{
+		"name": "Baileys irish cream (17%)",
+		"price": 13495,
+		"stock": 44,
+		"brand": "Baileys",
+		"link": "https://live.nemligstatic.com/scommerce/images/baileys-irish-cream-17.jpg?i=Qj-x-2an/1015001&w=623&h=623&mode=pad",
+		"labels": ["Drinks", "Discount", "Chokolade", "Likør"]
+	},
+	{
+		"name": "Tanqueray gin (43,1%)",
+		"price": 15995,
+		"stock": 37,
+		"brand": "Tanqueray",
+		"link": "https://live.nemligstatic.com/scommerce/images/tanqueray-gin-43-1.jpg?i=Qj-x-2an/5011328&w=623&h=623&mode=pad",
+		"labels": ["Drinks", "Discount", "Gin"]
+	},
+	{
+		"name": "Finsbury gin (37,5%)",
+		"price": 7495,
+		"stock": 53,
+		"brand": "Finsbury",
+		"link": "https://live.nemligstatic.com/scommerce/images/finsbury-gin-37-5.jpg?i=Qj-x-2an/1012014&w=623&h=623&mode=pad",
+		"labels": ["Drinks", "Discount", "Gin"]
+	},
+	{
+		"name": "Gordons dry (37,5%)",
+		"price": 11495,
+		"stock": 40,
+		"brand": "Gordons",
+		"link": "https://live.nemligstatic.com/scommerce/images/gordons-dry-37-5.jpg?i=-8s257_I/1012001&w=623&h=623&mode=pad",
+		"labels": ["Drinks", "Discount", "Gin"]
+	},
+	{
+		"name": "Smirnoff red (37,5%)",
+		"price": 12800,
+		"stock": 23,
+		"brand": "Smirnoff",
+		"link": "https://live.nemligstatic.com/scommerce/images/smirnoff-red-37-5.jpg?i=GliT8UsE/1012009&w=623&h=623&mode=pad",
+		"labels": ["Drinks", "Discount", "Vodka"]
+	},
+	{
+		"name": "Breezer Lemon (4%)",
+		"price": 1595,
+		"stock": 46,
+		"brand": "Breezer",
+		"link": "https://live.nemligstatic.com/scommerce/images/breezer-lemon-4.jpg?i=Qj-x-2an/5020194&w=623&h=623&mode=pad",
+		"labels": ["Lemon", "Ready to drink"]
+	},
+	{
+		"name": "Breezer Pineapple (4%)",
+		"price": 1595,
+		"stock": 31,
+		"brand": "Breezer",
+		"link": "https://live.nemligstatic.com/scommerce/images/breezer-pineapple-4.jpg?i=Qj-x-2an/5501072&w=623&h=623&mode=pad",
+		"labels": ["Pineapple", "Ready to drink"]
+	},
+	{
+		"name": "Breezer Strawberry (4%)",
+		"price": 1595,
+		"stock": 58,
+		"brand": "Breezer",
+		"link": "https://live.nemligstatic.com/scommerce/images/breezer-strawberry-4.jpg?i=DnDMibXu/5029801&w=623&h=623&mode=pad",
+		"labels": ["Strawberry", "Ready to drink"]
+	},
+	{
+		"name": "Breezer Orange (4%)",
+		"price": 1595,
+		"stock": 47,
+		"brand": "Breezer",
+		"link": "https://live.nemligstatic.com/scommerce/images/breezer-orange-4.jpg?i=Qj-x-2an/5501073&w=623&h=623&mode=pad",
+		"labels": ["Orange", "Ready to drink"]
+	},
+	{
+		"name": "Breezer Lime (4%)",
+		"price": 1595,
+		"stock": 24,
+		"brand": "Breezer",
+		"link": "https://live.nemligstatic.com/scommerce/images/breezer-lime-4.jpg?i=Qj-x-2an/5020193&w=623&h=623&mode=pad",
+		"labels": ["Lime", "Ready to drink"]
+	},
+	{
+		"name": "Breezer Watermelon (4%)",
+		"price": 1595,
+		"stock": 58,
+		"brand": "Breezer",
+		"link": "https://live.nemligstatic.com/scommerce/images/breezer-watermelon-4.jpg?i=Qj-x-2an/5020192&w=623&h=623&mode=pad",
+		"labels": ["Vandmelon", "Ready to drink"]
+	},
+	{
+		"name": "Danskvand",
+		"price": 475,
+		"stock": 69,
+		"brand": "nemlig basic",
+		"link": "https://live.nemligstatic.com/scommerce/images/danskvand.jpg?i=Qj-x-2an/5018163&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Varefakta", "Danskvand"]
+	},
+	{
+		"name": "Danskvand m. citrus",
+		"price": 445,
+		"stock": 32,
+		"brand": "nemlig basic",
+		"link": "https://live.nemligstatic.com/scommerce/images/danskvand-m-citrus.jpg?i=Qj-x-2an/5018162&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Citrus", "Danskvand"]
+	},
+	{
+		"name": "Danskvand m. citrus",
+		"price": 1800,
+		"stock": 63,
+		"brand": "nemlig basic",
+		"link": "https://live.nemligstatic.com/scommerce/images/danskvand-m-citrus.jpg?i=sw0Ei-H4/5017253&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Citrus", "Danskvand"]
+	},
+	{
+		"name": "Monster energy",
+		"price": 1600,
+		"stock": 23,
+		"brand": "Monster",
+		"link": "https://live.nemligstatic.com/scommerce/images/monster-energy.jpg?i=Qj-x-2an/5025785&w=623&h=623&mode=pad",
+		"labels": ["Energidrik"]
+	},
+	{
+		"name": "Grimbergen Blonde",
+		"price": 1995,
+		"stock": 66,
+		"brand": "Grimbergen",
+		"link": "https://live.nemligstatic.com/scommerce/images/grimbergen-blonde.jpg?i=euFPwLCY/5016520&w=623&h=623&mode=pad",
+		"labels": ["Belgien", "Hvedeøl", "Specialøl"]
+	},
+	{
+		"name": "Erdinger Hefe Weissbier",
+		"price": 2050,
+		"stock": 25,
+		"brand": "Erdinger",
+		"link": "https://live.nemligstatic.com/scommerce/images/erdinger-hefe-weissbier.jpg?i=euFPwLCY/5016517&w=623&h=623&mode=pad",
+		"labels": ["Tyskland", "Hvedeøl", "Specialøl"]
+	},
+	{
+		"name": "Grimbergen Double",
+		"price": 1995,
+		"stock": 51,
+		"brand": "Grimbergen",
+		"link": "https://live.nemligstatic.com/scommerce/images/grimbergen-double.jpg?i=gySsUHew/5016522&w=623&h=623&mode=pad",
+		"labels": ["Belgien", "Specialøl"]
+	},
+	{
+		"name": "Leffe blond",
+		"price": 3500,
+		"stock": 57,
+		"brand": "Leffe",
+		"link": "https://live.nemligstatic.com/scommerce/images/leffe-blond.jpg?i=euFPwLCY/5016501&w=623&h=623&mode=pad",
+		"labels": ["Hvedeøl", "Specialøl", "Belgien"]
+	},
+	{
+		"name": "Erdinger",
+		"price": 2050,
+		"stock": 64,
+		"brand": "Erdinger",
+		"link": "https://live.nemligstatic.com/scommerce/images/erdinger.jpg?i=euFPwLCY/5016519&w=623&h=623&mode=pad",
+		"labels": ["Alkoholfri", "Tyskland", "Hvedeøl", "Specialøl"]
+	},
+	{
+		"name": "Stella Artois",
+		"price": 1295,
+		"stock": 57,
+		"brand": "Stella Artois",
+		"link": "https://live.nemligstatic.com/scommerce/images/stella-artois.jpg?i=Qj-x-2an/5022690&w=623&h=623&mode=pad",
+		"labels": ["Belgien", "Specialøl"]
+	},
+	{
+		"name": "Nordic Pilsner (dåse)",
+		"price": 3600,
+		"stock": 36,
+		"brand": "Carlsberg",
+		"link": "https://live.nemligstatic.com/scommerce/images/nordic-pilsner-daase.jpg?i=NYvKZc54/5014025&w=623&h=623&mode=pad",
+		"labels": ["Alkoholfri", "Discount", "Lys øl", "Specialøl"]
+	},
+	{
+		"name": "Nordic ale (dåse)",
+		"price": 5100,
+		"stock": 33,
+		"brand": "Carlsberg",
+		"link": "https://live.nemligstatic.com/scommerce/images/nordic-ale-daase.jpg?i=NYvKZc54/5039598&w=623&h=623&mode=pad",
+		"labels": ["Alkoholfri", "Øl"]
+	},
+	{
+		"name": "Deo roll-on",
+		"price": 2000,
+		"stock": 44,
+		"brand": "Neutral",
+		"link": "https://live.nemligstatic.com/scommerce/images/deo-roll-on.jpg?i=CaYrbuDt/100044&w=623&h=623&mode=pad",
+		"labels": [
+			"AllergyCertified",
+			"Den Blå Krans",
+			"Discount",
+			"Parfumefri",
+			"Deodorant",
+			"Roll-on"
+		]
+	},
+	{
+		"name": "Barbergel Pure & Delicate",
+		"price": 3500,
+		"stock": 50,
+		"brand": "Gillette",
+		"link": "https://live.nemligstatic.com/scommerce/images/barbergel-pure-delicate.jpg?i=Qj-x-2an/105778&w=623&h=623&mode=pad",
+		"labels": ["Satin Care", "Venus", "Barberskum", "Parfumefri"]
+	},
+	{
+		"name": "Intimsæbe",
+		"price": 1400,
+		"stock": 37,
+		"brand": "Grøn Balance",
+		"link": "https://live.nemligstatic.com/scommerce/images/intimsaebe.jpg?i=Hd5uDGt1/5012149&w=623&h=623&mode=pad",
+		"labels": ["Den Blå Krans", "Discount", "Parfumefri", "Svanemærket", "Intimpleje"]
+	},
+	{
+		"name": "Håndsæbe refill (flydende)",
+		"price": 1925,
+		"stock": 42,
+		"brand": "Grøn Balance",
+		"link": "https://live.nemligstatic.com/scommerce/images/haandsaebe-refill-flydende.jpg?i=Hd5uDGt1/5012145&w=623&h=623&mode=pad",
+		"labels": ["Den Blå Krans", "Discount", "Parfumefri", "Svanemærket", "Håndsæbe"]
+	},
+	{
+		"name": "Læbepomade",
+		"price": 997,
+		"stock": 30,
+		"brand": "Grøn Balance",
+		"link": "https://live.nemligstatic.com/scommerce/images/laebepomade.jpg?i=8Q9behz1/5012153&w=623&h=623&mode=pad",
+		"labels": ["Den Blå Krans", "Discount", "Parfumefri", "Svanemærket", "Læbepomade"]
+	},
+	{
+		"name": "Dagcreme",
+		"price": 2395,
+		"stock": 59,
+		"brand": "Grøn Balance",
+		"link": "https://live.nemligstatic.com/scommerce/images/dagcreme.jpg?i=v5wL5iP9/5035572&w=623&h=623&mode=pad",
+		"labels": ["Den Blå Krans", "Discount", "Parfumefri", "Svanemærket", "Ansigtscreme"]
+	},
+	{
+		"name": "Shampoo (normalt hår)",
+		"price": 2000,
+		"stock": 51,
+		"brand": "Neutral",
+		"link": "https://live.nemligstatic.com/scommerce/images/shampoo-normalt-haar.jpg?i=tjvizOn2/922025&w=623&h=623&mode=pad",
+		"labels": [
+			"Hårpleje",
+			"Normalt hår",
+			"AllergyCertified",
+			"Den Blå Krans",
+			"Discount",
+			"Parfumefri",
+			"Svanemærket",
+			"Shampoo"
+		]
+	},
+	{
+		"name": "Balsam (alle hårtyper)",
+		"price": 2000,
+		"stock": 62,
+		"brand": "Neutral",
+		"link": "https://live.nemligstatic.com/scommerce/images/balsam-alle-haartyper.jpg?i=tjvizOn2/922029&w=623&h=623&mode=pad",
+		"labels": [
+			"AllergyCertified",
+			"Den Blå Krans",
+			"Discount",
+			"Parfumefri",
+			"Svanemærket",
+			"Balsam",
+			"Hårpleje"
+		]
+	},
+	{
+		"name": "Voks",
+		"price": 5900,
+		"stock": 66,
+		"brand": "Id HAIR",
+		"link": "https://live.nemligstatic.com/scommerce/images/voks.jpg?i=1Pfl1qq6/5045502&w=623&h=623&mode=pad",
+		"labels": ["Discount", "Alle hårtyper", "Styling", "Hårvoks"]
+	},
+	{
+		"name": "Tørshampoo",
+		"price": 3700,
+		"stock": 54,
+		"brand": "Schwarzkopf",
+		"link": "https://live.nemligstatic.com/scommerce/images/toershampoo.jpg?i=taXP79XU/5029421&w=623&h=623&mode=pad",
+		"labels": ["Got2b", "Hårpleje", "Shampoo", "Styling", "Discount"]
+	},
+	{
+		"name": "Dametrusse maxi str. M",
+		"price": 6495,
+		"stock": 52,
+		"brand": "Symfoni",
+		"link": "https://live.nemligstatic.com/scommerce/images/dametrusse-maxi-str-m.jpg?i=Qj-x-2an/2301290&w=623&h=623&mode=pad",
+		"labels": ["Undertøj"]
+	},
+	{
+		"name": "Kinasko str. 44",
+		"price": 4995,
+		"stock": 28,
+		"brand": "JBS",
+		"link": "https://live.nemligstatic.com/scommerce/images/kinasko-str-44.jpg?i=Qj-x-2an/101678&w=623&h=623&mode=pad",
+		"labels": ["Sort", "Sutsko"]
+	},
+	{
+		"name": "Knæstrømper str. one size",
+		"price": 1995,
+		"stock": 61,
+		"brand": "Symfoni",
+		"link": "https://live.nemligstatic.com/scommerce/images/knaestroemper-str-one-size.jpg?i=pqKGcRyU/5018112&w=623&h=623&mode=pad",
+		"labels": ["Discount", "One size", "Strømper"]
+	},
+	{
+		"name": "Kinasko str. 36",
+		"price": 4995,
+		"stock": 30,
+		"brand": "JBS",
+		"link": "https://live.nemligstatic.com/scommerce/images/kinasko-str-36.jpg?i=Qj-x-2an/5018907&w=623&h=623&mode=pad",
+		"labels": ["Sort", "Sutsko"]
+	}
+]
