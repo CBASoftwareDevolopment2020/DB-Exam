@@ -2,11 +2,14 @@ from datetime import datetime, timedelta
 from random import choice, randint
 import string
 import json
+import sys
 
 
-amounts = 10
+amounts = int(sys.argv[1])
 promo_codes = []
 ids = set()
+
+print(f'generating {amounts} promo codes')
 
 # generate n amounts of unique ids
 while len(ids) < amounts:
@@ -28,6 +31,6 @@ for n in range(amounts):
 
 
 # saving to .json
-with open('promo_codes.json', 'w') as fp:
+with open('mongo-db/data/promo_codes.json', 'w') as fp:
     json.dump(promo_codes, fp)
-    print(f'successfully added {len(promo_codes)} promo codes to promo_codes.json')
+    print(f'successfully added {len(promo_codes)} promo codes to mongo-db/data/promo_codes.json')
