@@ -7,7 +7,7 @@
 promo_codes {
 	id: String,
 	percentage: Number,
-	active: Boolean
+	used: Boolean
 	expires: Number
 }
 ```
@@ -15,11 +15,10 @@ promo_codes {
 ### Orders
 ```js
 Order {
-    id: String,
     user_id: Number,
     date: Number,
     items: [
-            {type: _id, amount: Number, price: Number},
+            {id: Number, name: String, amount: Number, price: Number},
             ...
         ],
     discount: Number,

@@ -30,7 +30,14 @@ def neo4j_query_get_items():
 ####################################
 
 
+
 results = neo4j_query_get_items()
+
+
+# for item in results:
+#     if item['item'].id == 27:
+#         print(item['item']['name'])
+
 formatted_items = [{'id': record['item'].id, 'name': record['item']['name'], 'price': record['item']['price']} for record in results]
 
 
@@ -73,5 +80,5 @@ for n in range(amounts):
 
 # saving to .json
 with open('mongo-db/data/orders.json', 'w') as fp:
-    json.dump(orders, fp)
+    json.dump(orders, fp, ensure_ascii=False)
     print(f'successfully added {len(orders)} promo codes to mongo-db/data/orders.json')
