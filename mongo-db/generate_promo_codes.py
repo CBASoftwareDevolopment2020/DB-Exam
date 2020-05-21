@@ -10,7 +10,6 @@ promo_codes = []
 ids = set()
 
 print(f'generating {amounts} promo codes')
-print('expires in 30 days')
 
 # generate n amounts of unique ids
 while len(ids) < amounts:
@@ -23,9 +22,9 @@ while len(ids) < amounts:
 for n in range(amounts):
     promo_code = {
         'id': ids.pop(),
-        'percentage': randint(1, 15) * 5,
-        'active': True,
-        'expires': (datetime.now() + timedelta(days=30)).timestamp(),
+        'percentage': randint(1, 5) * 5,
+        'used': False,
+        'expires': int((datetime.now() + timedelta(days=randint(-5, 90))).timestamp()),
     }
 
     promo_codes.append(promo_code)
