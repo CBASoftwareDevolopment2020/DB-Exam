@@ -10,6 +10,7 @@ promo_codes = []
 ids = set()
 
 print(f'generating {amounts} promo codes')
+print('expires in 30 days')
 
 # generate n amounts of unique ids
 while len(ids) < amounts:
