@@ -1,0 +1,7 @@
+CREATE OR REPLACE FUNCTION get_password(iemail VARCHAR)
+RETURNS SETOF "user" AS $$
+BEGIN
+    RETURN QUERY SELECT * FROM "user" as u WHERE u.email = iemail;
+END;
+$$ LANGUAGE PLPGSQL;
+
