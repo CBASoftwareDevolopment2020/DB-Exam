@@ -14,6 +14,7 @@ print(f'generating {amounts} orders')
 ####### DATABASE CONNECTIONS #######
 ####################################
 
+
 def neo4j_query_get_items():
     driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "1234"))
     with driver.session() as session:
@@ -28,8 +29,10 @@ def neo4j_query_get_items():
 ##### DATABASE CONNECTIONS END #####
 ####################################
 
+
 results = neo4j_query_get_items()
 formatted_items = [{'id': record['item'].id, 'name': record['item']['name'], 'price': record['item']['price']} for record in results]
+
 
 def random_item_list():
     types = randint(1, 10)
@@ -46,12 +49,13 @@ def random_item_list():
         amount = randint(1, 5)
         result.append({
             'item_id': item['id'],
-            'item': item['name'],
+            'name': item['name'],
             'price': item['price'],
             'amount': amount,
         })
 
     return result
+
 
 # generating data
 for n in range(amounts):
