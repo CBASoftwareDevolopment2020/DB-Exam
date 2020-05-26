@@ -5,16 +5,18 @@ import db_access  # connection info for all dbs
 import my_postgres as pg  # our postgres methods
 import my_redis as rd  # our redis methods
 import my_neo4j as neo  # our neo4j methods
+import my_mongo as mongo  # our mongo methods
 import psycopg2  # lib to connect to postgres
 import redis  # lib to connect to redis
 
 from neo4j import GraphDatabase
-
+from pymongo import MongoClient
 
 # database connections
 # pgconn = psycopg2.connect(**db_access.postgres)
 rdconn = redis.Redis(**db_access.redis)
-neoconn = GraphDatabase.driver(**db_access.neo4j)
+#neoconn = GraphDatabase.driver(**db_access.neo4j)
+monconn = MongoClient(db_access.mongo['host'], db_access.mongo['port'])[db_access.mongo['db_name']]
 
 # general flask setup
 app = Flask(__name__)
@@ -276,18 +278,6 @@ def neo4j_filter_by_price():
     return json.dumps(res), 200
 
 
-@app.route('/items/place-order', methods=["POST"])
-def neo4j_place_order():
-    body = request.json
-    items = list(neo.place_order(neoconn, body))
-
-    if items:
-        res = [dict(item) for item in items]
-        return json.dumps(res), 200
-    else:
-        return json.dumps({'error': 'not found'}), 404
-
-
 @app.route('/items/get-nodes-by-ids', methods=["POST"])
 def neo4j_get_nodes_by_ids():
     body = request.json
@@ -304,6 +294,33 @@ def neo4j_get_nodes_by_ids():
         res[label.lower() + 's'].append(dict(record['node']))
 
     return json.dumps(res), 200
+
+###########################
+#########  MONGO  #########
+###########################
+
+
+@app.route('/orders/by-user')
+def mongo_get_all_orders():
+    if "user" not in session:
+        return json.dumps({'message': 'not logged in'}), 404
+
+    id = session['user']['id']
+    orders = mongo.get_orders(monconn, id)
+
+    return json.dumps(orders), 200
+
+
+@app.route('/orders/all')
+def mongo_get_orders():
+    orders = mongo.get_orders(monconn)
+    return json.dumps(orders), 200
+
+
+@app.route('/orders/use-promo/<code>')
+def mongo_use_promo(code):
+    message = mongo.use_promo_code(monconn, code)
+    return json.dumps({'message': message}), 200
 
 
 # start app

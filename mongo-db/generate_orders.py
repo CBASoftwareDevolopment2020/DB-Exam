@@ -73,4 +73,4 @@ for n in range(amounts):
 # saving to .json
 with open('mongo-db/data/orders.json', 'w') as fp:
     json.dump(orders, fp, ensure_ascii=False)
-    print(f'successfully added {len(orders)} promo codes to mongo-db/data/orders.json')
+    print(f'successfully added {len(orders)} orders to mongo-db/data/orders.json')

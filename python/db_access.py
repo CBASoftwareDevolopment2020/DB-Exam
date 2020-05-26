@@ -15,3 +15,9 @@ neo4j = {
     'uri': 'bolt://localhost:7687',
     'auth': ('neo4j', '1234')
 }
+
+mongo = {
+    'host': 'localhost',
+    'port': 27017,
+    'db_name': 'db_exam'
+}
