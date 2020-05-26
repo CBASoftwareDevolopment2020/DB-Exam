@@ -59,3 +59,10 @@ def get_user_info(conn, email):
         "region": res[9]
     }
     return user
+
+
+def get_favorits(conn, user_id):
+    cur = conn.cursor()
+    cur.callproc("get_favorites", [user_id])
+    res = cur.fetchall()
+    return [x[0] for x in res]
