@@ -10,3 +10,8 @@ redis = {
     "port": 6379,
     "db": 0
 }
+
+neo4j = {
+    'uri': 'bolt://localhost:7687',
+    'auth': ('neo4j', '1234')
+}
