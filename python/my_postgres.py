@@ -3,8 +3,14 @@ import bcrypt
 
 def login(conn, email, password):
     cur = conn.cursor()
-    cur.callproc("get_password", [email])
-    user = cur.fetchone()
+    user = None
+
+    try:
+        cur.callproc("get_password", [email])
+        user = cur.fetchone()
+    except:
+        cur.execute("ROLLBACK")
+    
     if user is None:
         return None
     else:

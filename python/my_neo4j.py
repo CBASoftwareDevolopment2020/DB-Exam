@@ -277,3 +277,16 @@ def get_by_ids(driver, ids):
         results = session.run(query, ids=ids)
 
     return results
+
+def get_all_labels(driver):
+    query = '''
+        MATCH (label:Label) RETURN label
+    '''
+
+    with driver.session() as session:
+        results = session.run(query)
+        
+    return results
+
+
+

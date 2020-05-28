@@ -50,3 +50,8 @@ def use_promo_code(database, code):
 
 
 # use_promo_code('gjsormci')
+
+
+def make_order(database, d:dict):
+    x = database['orders'].insert_one(d)
+    return x.inserted_id

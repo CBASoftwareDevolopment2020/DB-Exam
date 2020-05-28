@@ -1,6 +1,6 @@
 postgres = {
     "host": "localhost",
-    "database": "dbex2",
+    "database": "dbex3",
     "user": "postgres",
     "password": "12345678"
 }

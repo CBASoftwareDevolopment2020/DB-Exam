@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, g, session, redirect, url_for, jsonify
 from flask_cors import CORS, cross_origin
 import json
+import time
 import db_access  # connection info for all dbs
 import my_postgres as pg  # our postgres methods
 import my_redis as rd  # our redis methods
@@ -13,9 +14,9 @@ from neo4j import GraphDatabase
 from pymongo import MongoClient
 
 # database connections
-# pgconn = psycopg2.connect(**db_access.postgres)
+pgconn = psycopg2.connect(**db_access.postgres)
 rdconn = redis.Redis(**db_access.redis)
-#neoconn = GraphDatabase.driver(**db_access.neo4j)
+neoconn = GraphDatabase.driver(**db_access.neo4j)
 monconn = MongoClient(db_access.mongo['host'], db_access.mongo['port'])[db_access.mongo['db_name']]
 
 # general flask setup
@@ -138,7 +139,6 @@ def remove_from_cart():
 def clear_cart():
     if "user" in session:
         rd.clear_cart(rdconn, session["user"]["email"])
-        return json.dumps({'success': False}), 400
 
     return json.dumps({'success': True}), 200
 
@@ -240,7 +240,13 @@ def neo4j_filter_by_label():
     items = list(neo.filter_by_label_query(neoconn, body['label']))
 
     if items:
-        res = [dict(item['item']) for item in items]
+        res = []
+
+        for item in items:
+            d = dict(item['item'])
+            d["id"] = item["item"].id
+            res.append(d)
+
         return json.dumps(res), 200
     else:
         return json.dumps({'error': 'not found'}), 404
@@ -295,6 +301,20 @@ def neo4j_get_nodes_by_ids():
 
     return json.dumps(res), 200
 
+
+
+@app.route('/labels')
+def neo4j_get_all_labels():
+    items = list(neo.get_all_labels(neoconn))
+    
+    r = [x["label"]["name"] for x in items]
+
+    return jsonify(r), 200
+
+
+
+
+
 ###########################
 #########  MONGO  #########
 ###########################
@@ -305,8 +325,9 @@ def mongo_get_all_orders():
     if "user" not in session:
         return json.dumps({'message': 'not logged in'}), 404
 
-    id = session['user']['id']
-    orders = mongo.get_orders(monconn, id)
+    idx = session['user']['id']
+    print(idx)
+    orders = mongo.get_orders(monconn, idx)
 
     return json.dumps(orders), 200
 
@@ -321,6 +342,51 @@ def mongo_get_orders():
 def mongo_use_promo(code):
     message = mongo.use_promo_code(monconn, code)
     return json.dumps({'message': message}), 200
+
+
+
+
+@app.route('/orders/create')
+def create_order():
+    if "user" not in session:
+        return json.dumps({'message': 'not logged in'}), 404
+
+    user_id = session["user"]["id"]
+
+    cart = rd.get_compressed_cart(rdconn, session["user"]["email"])
+
+    if len(cart.keys()) <= 0:
+        return json.dumps({'message': 'no items in cart'}), 400
+
+    items = list(neo.place_order(neoconn, cart))
+
+    if len(items) <= 0:
+        return json.dumps({'message': 'not enough in stock'}), 400
+
+
+    res = []
+    for item in items:
+        d = dict(item)
+        d["item_id"] = item.id
+        d["amount"] = cart[item.id]
+        res.append(d)
+
+    order = {
+        "date": int(time.time()),
+        "user_id": user_id,
+        "items": res,
+        "discount": None
+    }
+
+    print("order", order)
+
+    res = mongo.make_order(monconn, order)
+
+    print("mongo", res)
+
+    return jsonify({'message': "Success!", "success": True}), 200
+
+
 
 
 # start app
