@@ -1,6 +1,6 @@
 def load_data_query(driver):
     query = '''
-        LOAD CSV WITH HEADERS FROM 'file:///food.csv' AS r
+        LOAD CSV WITH HEADERS FROM 'file:///foodDone.csv' AS r
         MERGE (item: Item { name:r.name, price: toInteger(r.price), stock: toInteger(r.stock), img: r.link })
         MERGE (brand: Brand { brand: r.brand })
         FOREACH(label IN split(r.labels, ";")|MERGE (l:Label { name: label }))
@@ -278,6 +278,7 @@ def get_by_ids(driver, ids):
 
     return results
 
+
 def get_all_labels(driver):
     query = '''
         MATCH (label:Label) RETURN label
@@ -285,8 +286,6 @@ def get_all_labels(driver):
 
     with driver.session() as session:
         results = session.run(query)
-        
+
     return results
-
-
 
