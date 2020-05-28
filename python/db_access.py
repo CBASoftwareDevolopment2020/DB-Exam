@@ -1,8 +1,8 @@
 postgres = {
     "host": "localhost",
-    "database": "dbex2",
+    "database": "db_exam",
     "user": "postgres",
-    "password": "12345678"
+    "password": "password123"
 }
 
 redis = {
@@ -13,7 +13,7 @@ redis = {
 
 neo4j = {
     'uri': 'bolt://localhost:7687',
-    'auth': ('neo4j', '1234')
+    'auth': ('db_exam', '1234')
 }
 
 mongo = {
