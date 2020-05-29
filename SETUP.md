@@ -1,5 +1,7 @@
 # Database Setup Guides
 
+Change the `python/db_access.py` values to fit your access points.
+
 ## PostgreSQL
 
 Create database called `db_exam`.
