@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Chelsea Market', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+*{
+  font-family: 'Chelsea Market', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    box-sizing: border-box;
+}
+
+.content{
+  padding: 100px;
+  width: 80%;
+}
+
+.beauty_header{
+  display: flex;
+}
+.beauty_header *{
+  padding: 10px;
+}
+
+
+.label_box{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border: 1px solid black;
+}
+.label_box > *{
+  padding: 10px;
+  color: #232323;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+
+.cart{
+  display: block;
+  position: fixed;
+  right: 0;
+  top:0;
+  bottom: 0;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  padding-right: 16px;
+  padding-left: 20px;
+  background: whitesmoke;
+  border-left: 1px solid black;
+  width: 20%;
+}
+.cart::-webkit-scrollbar {
+  display: none;
+}
+table{
+  border-collapse: collapse; 
+}
+table td {
+  padding: 5px 5px;
+}
+table tr{
+  border: 1px solid black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
