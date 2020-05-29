@@ -50,3 +50,29 @@ _bash shell_
 ```bash
 python setup/mongo.py
 ```
+
+Run these two scripts to add user roles.
+
+_mongo shell_
+```javascript
+db.createRole(
+    {
+        role: "userrole",
+        privileges: [
+        { resource: { db: "dbexam", collection: "orders" }, actions: [ "find", "insert" ] },
+        { resource: { db: "dbexam", collection: "promos" }, actions: [ "find", "insert", "update","remove" ] },
+        ],
+        roles: []
+    }
+)
+ 
+db.createUser(
+    {
+        user: "user",
+        pwd: "1234",
+        roles: [
+            { role: "userrole", db: "dbexam"} 
+        ]
+    }
+)
+```
